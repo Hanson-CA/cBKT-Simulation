@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "cBKT-Simulation: simulation code for Confidence-Integrated Bayesian Knowledge Tracing"
+type: software
+license: MIT
+repository-code: "https://github.com/Hanson-CA/cBKT-Simulation"
+authors:
+  - family-names: Yan
+    given-names: Hongxin
+    affiliation: Athabasca University
+    email: hongxiny@athabascau.ca
+  - name: Kinshuk
+    affiliation: University of North Texas
+    email: kinshuk@ieee.org
+  - family-names: Lin
+    given-names: Fuhua
+    affiliation: Athabasca University
+    email: oscarl@athabascau.ca
+preferred-citation:
+  type: conference-paper
+  title: "Confidence-Integrated Bayesian Knowledge Tracing for Adaptive Practicing"
+  authors:
+    - family-names: Yan
+      given-names: Hongxin
+    - name: Kinshuk
+    - family-names: Lin
+      given-names: Fuhua
+  collection-title: "Proceedings of AIESC 2027"
+  conference:
+    name: "AIESC 2027"
+    city: Tokyo
+    country: JP
+  year: 2027

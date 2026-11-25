@@ -2,7 +2,7 @@
 
 Simulation code for the paper
 
-> H. Yan, Kinshuk, and F. Lin "Confidence-Integrated Bayesian Knowledge Tracing for Adaptive Practicing,"
+> H. Yan, Kinshuk, and F. Lin, "Confidence-Integrated Bayesian Knowledge Tracing for Adaptive Practicing,"
 > in *Proc. AIESC 2027*, Tokyo, Japan, 2027.
 
 (confidence-integrated BKT, "cBKT", compared with standard BKT and a feature-based model).

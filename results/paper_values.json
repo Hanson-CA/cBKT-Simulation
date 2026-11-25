@@ -1,0 +1,287 @@
+{
+ "table_II": [
+  [
+   "Operating point",
+   "stdBKT",
+   "cBKT moderate",
+   "cBKT severe"
+  ],
+  [
+   "Over-practice at 3% under-practice",
+   "3.64",
+   "2.57",
+   "3.53"
+  ],
+  [
+   "Over-practice at 5% under-practice",
+   "3.20",
+   "2.06",
+   "2.77"
+  ],
+  [
+   "Under-practice (%) at 2.5 over-practice",
+   "8.3",
+   "3.5",
+   "6.1"
+  ],
+  [
+   "Over-practice at 5% under-practice, mean of 20 new groups",
+   "3.14",
+   "2.05",
+   "2.55"
+  ]
+ ],
+ "table_III": [
+  [
+   "Condition",
+   "Model",
+   "MAE",
+   "Opps.",
+   "MAE calibr.",
+   "MAE over-conf.",
+   "MAE under-conf."
+  ],
+  [
+   "Moderate",
+   "stdBKT",
+   "0.179",
+   "7.18",
+   "0.182",
+   "0.175",
+   "0.175"
+  ],
+  [
+   "",
+   "cBKT",
+   "0.144",
+   "5.98",
+   "0.143",
+   "0.145",
+   "0.144"
+  ],
+  [
+   "Severe",
+   "stdBKT",
+   "0.179",
+   "7.18",
+   "0.177",
+   "0.190",
+   "0.169"
+  ],
+  [
+   "",
+   "cBKT",
+   "0.152",
+   "6.02",
+   "0.139",
+   "0.169",
+   "0.148"
+  ]
+ ],
+ "table_IV": [
+  [
+   "Condition",
+   "Model",
+   "Threshold",
+   "Over-practice (SD)",
+   "Change (%)"
+  ],
+  [
+   "Moderate",
+   "stdBKT",
+   "0.911",
+   "3.14 (0.15)",
+   ""
+  ],
+  [
+   "",
+   "cBKT",
+   "0.930",
+   "2.05 (0.15)",
+   "−34.6"
+  ],
+  [
+   "",
+   "Feature-based",
+   "0.930",
+   "1.79 (0.18)",
+   "−42.9"
+  ],
+  [
+   "Severe",
+   "stdBKT",
+   "0.911",
+   "3.14 (0.15)",
+   ""
+  ],
+  [
+   "",
+   "cBKT",
+   "0.944",
+   "2.55 (0.18)",
+   "−18.7"
+  ],
+  [
+   "",
+   "Feature-based",
+   "0.994",
+   "7.87 (0.19)",
+   "+151.3"
+  ]
+ ],
+ "facts": {
+  "text_cut5_moderate_pct": "35.4",
+  "text_cut5_severe_pct": "13.5",
+  "text_ci_over5_moderate": "−1.12 [−1.40, −0.82]",
+  "text_ci_over5_severe": "−0.42 [−0.70, −0.09]",
+  "text_cut3_moderate_pct": "29.6",
+  "text_cut3_severe_pct": "3.2",
+  "text_groups_moderate": "30% to 40% (mean 35%)",
+  "text_groups_severe": "11% to 26% (mean 19%)",
+  "text_params": "PG=0.300 PS=0.200 PT=0.149 PL0=0.302",
+  "text_mae_gain_moderate": "0.035 [0.032, 0.038]",
+  "text_opps_gain_moderate": "1.20 [1.08, 1.31]",
+  "text_mae_gain_severe": "0.026 [0.024, 0.029]",
+  "text_opps_gain_severe": "1.16 [1.03, 1.30]",
+  "text_severe_smallest_gain_over": "0.190 to 0.169",
+  "text_severe_smallest_gain_under": "0.169 to 0.148",
+  "text_true_mean_opps": "5.21",
+  "text_types_moderate": "464, 233, 203",
+  "text_types_severe": "287, 317, 296",
+  "text_cbkt_change_moderate_pct": "34.6",
+  "text_cbkt_thresholds": "0.93 to 0.94",
+  "text_trainsize_cbkt_moderate": "2.14 to 2.26",
+  "text_trainsize_cbkt_severe": "2.63 to 2.67",
+  "text_trainsize_cbkt_missed_severe_n10": "4",
+  "abstract_cuts_pct": "35 and 19"
+ },
+ "facts_robust": {
+  "text_const_range_moderate": "29% to 36%",
+  "text_const_range_severe": "17% to 18%",
+  "text_const1_fails": "at most 1 of 20 groups reach the 5% target",
+  "text_history_vs_raw": "A 28% vs raw 32% (moderate); A 19% vs raw 18% (severe)",
+  "text_oracle_extra_pp_severe": "3",
+  "text_half_link": "16% (moderate); 5% (severe)",
+  "text_no_information": "7% to 12% more practice"
+ },
+ "table_V": [
+  [
+   "Check",
+   "Setting",
+   "Moderate",
+   "Severe"
+  ],
+  [
+   "Rating noise SD",
+   "0.08",
+   "0.78, −34.6",
+   "0.60, −18.7"
+  ],
+  [
+   "",
+   "0.15",
+   "0.74, −31.3",
+   "0.57, −19.4"
+  ],
+  [
+   "",
+   "0.25",
+   "0.66, −25.9",
+   "0.53, −18.3"
+  ],
+  [
+   "",
+   "0.35",
+   "0.58, −21.6",
+   "0.48, −15.7"
+  ],
+  [
+   "Rating–answer link ρ",
+   "1.00",
+   "0.76, −31.9",
+   "0.56, −18.1"
+  ],
+  [
+   "",
+   "0.75",
+   "0.68, −24.8",
+   "0.45, −11.8"
+  ],
+  [
+   "",
+   "0.50",
+   "0.55, −16.0",
+   "0.32, −4.8"
+  ],
+  [
+   "",
+   "0.35",
+   "0.42, −10.4",
+   "0.23, −0.3"
+  ],
+  [
+   "",
+   "0.25",
+   "0.32, −5.9",
+   "0.17, +3.0"
+  ],
+  [
+   "",
+   "0.00",
+   "0.00, +7.1",
+   "0.00, +12.4"
+  ],
+  [
+   "Constant in m",
+   "1.25 / 1.50 / 1.75",
+   "−35.8 / −31.9 / −29.2",
+   "−18.1 / −18.1 / −16.9"
+  ],
+  [
+   "Learner bias removed",
+   "estimate / true bias",
+   "−27.9 / −30.9",
+   "−18.8 / −21.4"
+  ],
+  [
+   "Asymmetric variant",
+   "guess only / correct answers only",
+   "−29.3 / −32.3",
+   "−13.8 / −10.7"
+  ]
+ ],
+ "facts_submitted": {
+  "table_IV_submitted": [
+   [
+    "",
+    "Feature-based",
+    "0.985",
+    "2.85 (0.15)",
+    "−9.0"
+   ],
+   [
+    "",
+    "Feature-based",
+    "0.977",
+    "4.13 (0.30)",
+    "+33.2"
+   ]
+  ],
+  "text_fb_change_moderate_pct": "9.0",
+  "text_fb_change_severe_pct": "33",
+  "text_fb_groups_reached": "18 of 20 (moderate); 17 of 20 (severe)",
+  "text_trainsize_fb_fail": "12 of 20 (moderate); 14 to 17 of 20 (severe)"
+ },
+ "facts_revision": {
+  "gamma_auroc_main": "moderate 0.78 (AUROC 0.84); severe 0.60 (AUROC 0.75)",
+  "cells_moderate": "high-correct −31.7; low-correct −7.3; low-wrong +1.2",
+  "cells_severe": "high-correct −6.3; low-correct −10.2; low-wrong +0.4",
+  "wrong_cells_max_abs": "1.6",
+  "fb_wins_vs_cbkt_moderate": "18 of 20",
+  "fb_trainsize_moderate": "n=200: −9.9% vs cBKT (18 groups reach); n=50: +60.0% (17); n=10: 4 groups reach",
+  "cbkt_trainsize_moderate": "2.08 to 2.26",
+  "fb_noise035_cbkt_wins": "20 of 20",
+  "stdbkt_em_converged_iter": "54",
+  "p_nonmastered_given_wrong_rating1_moderate": "0.67"
+ }
+}
